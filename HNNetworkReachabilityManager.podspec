@@ -12,11 +12,9 @@ Pod::Spec.new do |s|
   s.summary = '网络可达性监听管理器'
   s.homepage = 'https://github.com/huinongwang/HNNetworkReachabilityManager'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
-  s.authors = {
-    'huihongwang' => 'iosdev@cnhnkj.com'
-  }
+  s.authors = { 'huihongwang' => 'iosdev@cnhnkj.com' }
   s.source = {
-    :git => 'https://github.com/huinongwang/HNNetworkReachabilityManager.git'
+    :git => 'https://github.com/huinongwang/HNNetworkReachabilityManager.git',
     :tag => s.version.to_s
   }
   
